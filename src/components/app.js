@@ -12,6 +12,7 @@ class App extends Component {
   }
 
   playSound(e) {
+    console.log('playSound fired!');
     const sound = e.currentTarget.id
     Sounds[sound].currentTime = 0;
     Sounds[sound].play();
