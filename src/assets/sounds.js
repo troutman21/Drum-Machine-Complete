@@ -14,8 +14,8 @@ import snare from './snare.WAV';
 import bongo from './bongo.WAV';
 import blip from './blip.WAV';
 import clap from './clap.WAV';
-import echo from './echo.WAV';
-import kick from './kick.WAV';
+import echo from './echos.WAV';
+import kick from './kicks.WAV';
 import loop from './loop.WAV';
 
 const songs = {
