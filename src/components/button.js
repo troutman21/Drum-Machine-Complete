@@ -4,6 +4,7 @@ class Button extends Component {
   render() {
     return(
       <div
+        className='thisIsAnExampleThatCanBeRemovedAnytime'
         id={this.props.sound}
         className='button'
         onClick={this.props.playSound}
